@@ -48,7 +48,6 @@ jobs:
           # 使用 find 命令查找 APK 文件
           APK_PATH=$(find . -name "*.apk" -type f | head -n 1)
           echo "APK file path: $APK_PATH"
-          # 或者使用 ls 命令列出所有 APK 文件
 
       # 7. 上传 APK 到 Artifacts
       - name: Upload Artifact
